@@ -11,6 +11,8 @@ output: pdf_document
 
 - **Version Control**: We use Git in our product's frontend as a version control system to manage changes to our code. Also for documentation
 - **Branching**: We work on different branches, each specific to a feature, bug fix, or refactoring action, which helps isolate changes and manage development flow.
+- **Pull Request**: Merging the branches to the main branch needs a Pull Request.
+- **Review**: A Pull Request is always beeing reviewd by atleast 2 people.
 - **Remote Repositories**: We use GitHub for hosting our remote repositories, enabling centralized access and collaboration.
 - **Hooks**: We utilize Git commit and push hooks to perform checks before committing and pushing code, ensuring code quality and consistency.
 
