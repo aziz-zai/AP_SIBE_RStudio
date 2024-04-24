@@ -1,7 +1,32 @@
 ---
-output:
-  pdf_document: default
-  html_document: default
+title: "Exploring Git Collaboration"
+author: "Aziz Zai"
+date: "24.04.2024"
+output: pdf_document
 ---
-# Testing GIT
-# Testing new GIT branch
+
+# IT'S YOUR TURN!!!
+
+## 1. How can you use Git as a collaboration platform?
+
+- **Version Control**: We use Git in our product's frontend as a version control system to manage changes to our code. Also for documentation
+- **Branching**: We work on different branches, each specific to a feature, bug fix, or refactoring action, which helps isolate changes and manage development flow.
+- **Remote Repositories**: We use GitHub for hosting our remote repositories, enabling centralized access and collaboration.
+- **Hooks**: We utilize Git commit and push hooks to perform checks before committing and pushing code, ensuring code quality and consistency.
+
+## 2. What online platforms host Git?
+
+- Yes for example:
+  - GitHub
+  - GitLab
+  - Bitbucket
+  - Azure Repos
+  - AWS CodeCommit
+
+## 3. Are there differences between online platforms?
+
+- **Yes, they have different features**:
+  - Github has Github Actions for example. Which is pretty cool!
+
+## 4. Add your findings to your script and commit the changes.
+**DONE**
