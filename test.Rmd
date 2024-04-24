@@ -1,0 +1,30 @@
+---
+title: "Hello World in Markdown"
+author: "Mirco"
+date: "24. April 2024"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+csl: apa.csl
+bibliography: references.bib    
+---
+
+## What is cool about R Markdown
+
+```{r setup, include=FALSE}
+
+setwd("~/sibe/Applied Programming") 
+```
+
+```{r echo=FALSE}
+data <- read.csv("pressure.tsv", sep = "\t")  
+```
+
+```{r echo=FALSE}
+plot(data$temperature, data$pressure,
+     xlab = "Temperature", ylab = "Pressure",
+     main = "Pressure vs Temperature")  
+```
+
+These are the maximum values of the date: - Temperatur: `r max(data$temperature)` And - Pressure: `r max(data$pressure)`
