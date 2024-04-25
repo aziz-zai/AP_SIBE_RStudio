@@ -41,8 +41,8 @@ print(paste(converted_celsius_value, "degrees Celsius is", converted_fahrenheit_
 
 #FUNCTION TASK 2
 data <- read.csv("pressure.tsv", sep="\t")
-
-data$temperatureCelsius <- sapply(data$temperature, fahrenheitToCelsius)
+names(data)[names(data) == "temperature"] <- "Fahrenheit"
+data$Celsius <- sapply(data$Fahrenheit, fahrenheitToCelsius)
 
 print(data)
 
